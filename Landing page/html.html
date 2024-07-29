@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SL Tech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>SynapticLink Technologies</h1>
+        <p>Welcome to our amazing world!</p>
+    </header>
+
+    <section>
+        <h2>About Us</h2>
+        <p>We are a leading company that provides top-notch products and services. We are dedicated to delivering the best experience for our customers..</p>
+    </section>
+
+    <section>
+        <h2>Our Products</h2>
+        <p>Check out our fantastic products that will make your life better!</p>
+        <button onclick="showProducts()" class="cta">Show Products</button>
+        <div id="products" style="display: none;">
+            <!-- Product list can be dynamically generated here using JavaScript -->
+            <p>Product 1</p>
+            <p>Product 2</p>
+            <p>Product 3</p>
+        </div>
+    </section>
+    <section>
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, let us know how we can help you!</p>
+        <form action="/contact_us" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required><br>
+            <label for="message">Message: </label>
+            <textarea name="message"></textarea><br>
+            <input type="submit" class="ar" value="Submit">
+        </form>
+    
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SynapticLink Technologies. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
