@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f5fa; 
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #D5ACF5; 
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+        }
+
+        section:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            background-color: #E7CFF9; 
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li::before {
+            content: '\2022';
+            color: #333;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        .skills, .projects {
+            margin-top: 20px;
+        }
+
+        .skills:hover, .projects:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            background-color: #E7CFF9; 
+        }
+
+        .project {
+            margin-bottom: 20px;
+            transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+        }
+
+        .project:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            background-color:#E7CFF9; 
+        }
+
+        .project h3 {
+            color: #333;
+        }
+
+        .project p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Deepanshi Srivastava</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a passionate and skilled web developer with expertise in front-end and back-end technologies. My journey in the world of web development started when I discovered my love for creating beautiful and functional websites.
+        </p>
+        <p>
+            With a strong foundation in HTML, CSS, and JavaScript, I enjoy turning ideas into reality through coding. I have experience working with frameworks like React and Node.js, and I'm always eager to learn and explore new technologies.
+        </p>
+        <p>
+            As a detail-oriented and creative problem solver, I strive to build user-friendly and responsive web applications. I am constantly seeking opportunities to enhance my skills and take on new challenges in the ever-evolving field of web development.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript </li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            
+            
+           
+            <li>Responsive Design</li>
+            <li>Database Management</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Awesome Website</h3>
+            <p>
+                A responsive website showcasing my design and coding skills. Built using HTML, CSS, and JavaScript.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Project 2: React Task Manager</h3>
+            <p>
+                Developed a task management application using React.js. Implemented features such as task creation, deletion, and completion tracking.
+            </p>
+        </div>
+      
+    </section>
+
+</body>
+</html>
+
