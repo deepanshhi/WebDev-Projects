@@ -1,1 +1,1 @@
-# Mini-WebDev-Projects
+# WebDev-Projects
